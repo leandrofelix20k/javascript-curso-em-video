@@ -26,4 +26,10 @@
 
 Aula 03 - Dando os primeiros passos
 
-    
+    Bibliográfia:
+        Livros:
+            JavaScript: O Guia Definitivo
+            JavaScript - Guia do Programador
+        Referências:
+            mozilla - https://developer.mozilla.org/pt-BR/docs/Web/JavaScript
+            ECMA - https://www.ecma-international.org/publications-and-standards/standards/ecma-262/
