@@ -1,20 +1,20 @@
 Aula 5 - Variáveis e Tipos Primitivos
 
-    Comentários em JS:
+    -Comentários em JS
         Existe duas formas de comentar em JS:
             //Comentário em apenas uma linha
             /*
-            Comentários em várias linha
+            Comentários em várias linhas
             */
         
     
     -O símbolo de = é utilizado para atribuir um valor a 
-    determinada variável.
+    determinada variável
         Ex:
             var a = 3
             (A variável a recebe o valor 3)
     
-    -Regras para a nomeação de identificadores:
+    -Regras para a nomeação de identificadores
         -Podem começar com letra, $ ou _
         -Não podem começar com números
         -É possível usar letras ou números
@@ -23,7 +23,7 @@ Aula 5 - Variáveis e Tipos Primitivos
         -Não pode usar palavras reservadas (Palavras que o 
         JavaScript utiliza para os comandos)
     
-    Tipos Primitivos em JavaScript:
+    -Tipos Primitivos em JavaScript
         -number: 10, 6, 9.9, -1, 45, 8.0
             -infinity
             -NaN
@@ -42,3 +42,32 @@ Aula 5 - Variáveis e Tipos Primitivos
             -function
     
 Aula 6 – Tratamento de dados
+
+    -Atribuir valor a uma variável dentro do site: 
+        var nome = window.prompt('Digite seu nome: ') //o comando prompt retorna uma string
+        window.alert('Bem vindo ao meu site, ' + nome)
+        *O sinal de + é utilizado para juntar (Concatenar)
+
+    -Convertendo strings to number
+        var n = window.prompt('Digite um número: ')
+            Comandos:
+                Number.parseInt(n)
+                        or
+                -parseInt(n) // Converter para um número inteiro
+                    Ex:
+                        parseInt(window.prompt('Digite um número: '))
+
+                -parseFloat(n) // Converter para um número real
+                    Ex:
+                        parseFloat(window.prompt('Digite um número: '))
+                
+                -Number(n) // Coverte para o tipo primitivo number, independente de ser um número inteiro ou real
+                    Ex:
+                        Number(window.prompt('Digite um número: '))
+    
+    -Convertendo number to string
+        var n = Number(window.prompt('Digite um número: '))
+            Comandos:
+                -String(n)
+
+                -ntoString()
