@@ -1,5 +1,5 @@
 # Curso de JavaScript do site Curso em Vídeo
- Anotações e Resoluções de exercícios do curso de Python3
+ Anotações e Resoluções de exercícios do curso de JavaScript
 
 
 ## Link do Curso:
