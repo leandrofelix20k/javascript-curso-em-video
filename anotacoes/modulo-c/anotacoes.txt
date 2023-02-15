@@ -1,0 +1,23 @@
+Aula 9 – Introdução ao DOM
+
+    -Significado:
+        -É um conjunto de objetos dentro do navegador que dará  
+        acesso aos componentes do site
+
+        D - Document
+        O - Object
+        M - Model
+
+    -Selecionando elemento:
+        -Por Marca: getElementsByTagName()
+        -Por ID: getElementById()
+        -Por Nome: getElementsByName()
+        -Por Classe: getElementsByClassName()
+        -Por Seletor: querySelector()   //Nova forma
+                      querySelectorAll()
+    
+        *Obs: Deve-se escolher de acordo com a necessidade
+
+    -Representção de div e class
+        -As divs são representadas por um ponto '.'
+        -As class são representadas por uma hashtag '#'

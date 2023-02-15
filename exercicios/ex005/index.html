@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+    <style>
+        body {
+            background-color: aquamarine;
+            font: 16pt Arial;
+        }
+    </style>
+</head>
+<body>
+    <h1>Iniciando os estudos DOM</h1>
+    <p>Exemplo de árvore DOM:</p>
+    <img src="imagens/arvore-dom.png" alt="exemplo arvore DOM">
+    <br>
+    <div id="msg">Clique Aqui</div>
+    <script>
+        var p1 = document.getElementsByTagName('p')[0] //Selecionando elemnto por marca
+        var d = window.document.querySelector('div#msg')
+        /*
+        var d = window.document.getElementById(`msg`) //Selecionando elemnto por ID
+        var d1 = window.document.getElementsByTagName(`msg`)[0] //Selecionando elemnto por Nome
+        window.document.write('Primeiro parágrafo: ' + p1.innerText)
+        document.write(p1.innerHTML)
+        d.style.background = 'gray'
+        d.innerText = 'Alterando Texto'
+        */
+        d.style.color = 'blue'
+    </script>
+</body>
+</html>
