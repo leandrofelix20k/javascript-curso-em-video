@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos DOM</title>
+    <style>
+        div {
+            font: 18pt Arial;
+            background-color: rgb(50, 196, 21);
+            color: rgb(0, 0, 0);
+            width: 200px;
+            height: 200px;
+            line-height: 200px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <!--Forma 1
+    <div id="area" onclick="clicar()" onmouseenter="entrou()" onmouseout="saiu()">
+        Texto
+    </div>
+    <script>
+        var divArea = window.document.getElementById('area')
+        function clicar(){
+            divArea.innerText = 'Clicou!'
+        }
+        function entrou(){
+            divArea.innerText = 'Entrou!'
+            divArea.style.background = 'red'
+        }
+        function saiu(){
+            divArea.innerText = 'Saiu!'
+            divArea.style.background = 'rgb(50, 196, 21)'
+        }  
+    </script>
+    -->
+    <!--Forma 2: Mais Clean-->
+    <div id="area">
+        Texto
+    </div>
+    <br>
+    <script>
+        var divArea = window.document.getElementById('area')
+        divArea.addEventListener('click', clicar)
+        divArea.addEventListener('mouseenter', entrou)
+        divArea.addEventListener('mouseout', saiu)
+
+        function clicar(){
+            divArea.innerText = 'Clicou!'
+        }
+        function entrou(){
+            divArea.innerText = 'Entrou!'
+            divArea.style.background = 'red'
+        }
+        function saiu(){
+            divArea.innerText = 'Saiu!'
+            divArea.style.background = 'rgb(50, 196, 21)'
+        }  
+    </script>
+</body>
+</html>

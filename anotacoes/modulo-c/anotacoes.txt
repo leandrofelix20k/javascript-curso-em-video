@@ -21,3 +21,8 @@ Aula 9 – Introdução ao DOM
     -Representção de div e class
         -As divs são representadas por um ponto '.'
         -As class são representadas por uma hashtag '#'
+    
+Aula 10 - Eventos DOM
+
+    - Lista com Eventos DOM mais comuns:
+        Link: https://developer.mozilla.org/pt-BR/docs/Web/Events
