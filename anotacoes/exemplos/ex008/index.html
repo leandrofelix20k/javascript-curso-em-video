@@ -2,6 +2,7 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Detran</title>
 </head>
@@ -16,11 +17,11 @@
             let velocidade = Number(txtv.value)
             
             let res = window.document.getElementById('res')
-            res.innerHTML = `Sua velocidade é de ${velocidade}. `
+            res.innerHTML = `<p>Sua velocidade é de <strong>${velocidade}Km/h</strong>.</p>`
             if (velocidade <= 80){
-                res.innerHTML = res + 'Você está dentro'
-            } else{
-
+                res.innerHTML += '<p>Você está dentro do limite de velocidade!</p>' //'+=' faz a concatenação dos dois textos
+            }  else{
+                res.innerHTML += '<p>Você ultrapassou o limite de velocidade!Multado em 500 mangos!</p'
             }
         }
     </script>
